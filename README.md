@@ -1,6 +1,6 @@
-# 🛡️ NestJS Auth API
+# Postly Api
 
-A simple and secure **authentication API** built with [NestJS](https://nestjs.com/) and [MongoDB](https://www.mongodb.com/) that includes user registration, login, and JWT-based authentication.
+Postlly API is a powerful and scalable backend service built with [NestJS](https://nestjs.com/) and [MongoDB](https://www.mongodb.com/) that includes user registration, login, and JWT-based authentication, etc.
 
 ---
 
