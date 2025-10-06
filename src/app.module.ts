@@ -27,5 +27,6 @@ import { CommentModule } from './comment/comment.module';
   ],
   controllers: [],
   providers: [],
+  
 })
 export class AppModule { }

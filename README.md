@@ -70,12 +70,35 @@ The API will be available at `http://localhost:3000`.
   }
   ```
 
-### User
+## API Endpoints
 
-- `GET /user` — Get all users
-- `GET /user/:id` — Get user by ID
-- `PATCH /user/:id` — Update user
-- `DELETE /user/:id` — Delete user
+**Auth**
+
+POST /auth/signup – Register a new user
+
+POST /auth/login – Login and receive a JWT
+
+GET /auth/me – Get current logged-in user
+
+**Posts**
+
+POST /posts – Create a post (Auth required)
+
+GET /posts – Get all posts
+
+GET /posts/:id – Get a single post
+
+PATCH /posts/:id – Update a post (Author only)
+
+DELETE /posts/:id – Delete a post (Author or Admin)
+
+ **Comments**
+
+POST /posts/:postId/comments – Add a comment (Auth required)
+
+PATCH /comments/:id – Update comment (Author only)
+
+DELETE /comments/:id – Delete comment (Author or Admin)
 
 
 ## Project Structure
