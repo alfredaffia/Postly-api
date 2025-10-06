@@ -4,8 +4,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { Roles } from 'src/auth/decorators/role.decorator';
 import { AuthGuard } from '@nestjs/passport';
-import { RolesGuard } from 'src/auth/guards/roles.guard';
-import { User } from './Schema/user.schema';
+import { RolesGuard } from '../auth/guards/roles.guard';
 import { UserRole } from './enum/user.role.enum';
 
 @Controller('user')
